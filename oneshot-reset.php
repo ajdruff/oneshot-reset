@@ -51,14 +51,15 @@ $answer = meh();
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<title>WordPress Emergency PassWord Reset</title>
+	<title>Oneshot Reset - A self-destructing password reset script for WordPress sites</title>
 	<meta http-equiv="Content-Type" content="<?php bloginfo( 'html_type' ); ?>; charset=<?php bloginfo( 'charset' ); ?>" />
 	<link rel="stylesheet" href="<?php bloginfo( 'wpurl' ); ?>/wp-admin/wp-admin.css?version=<?php bloginfo( 'version' ); ?>" type="text/css" />
 </head>
 <body>
 	<div class="wrap">
 		<form method="post" action="">
-			<h2>WordPress Emergency PassWord Reset</h2>
+			<h2>Oneshot Reset</h2>
+			<p><strong>A self-destructing password reset script for WordPress sites</strong></p>
 			<p><strong>Your use of this script is at your sole risk. All code is provided "as -is", without any warranty, whether express or implied, of its accuracy, completeness. Further, I shall not be liable for any damages you may sustain by using this script, whether direct, indirect, special, incidental or consequential.</strong></p>
 			<p>This script is intended to be used as <strong>a last resort</strong> by WordPress administrators that are unable to access the database.
 				Usage of this script requires that you know the Administrator's user name for the WordPress install. (For most installs, that is going to be "admin" without the quotes.)</p>
