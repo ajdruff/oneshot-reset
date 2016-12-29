@@ -5,7 +5,7 @@ This script will allow you to reset a WordPress installations's administrator pa
 
 Except for the 'self-destruction' feature, this is the same script that appears here: [Emergency Password Reset Script](https://codex.wordpress.org/User:MichaelH/Orphaned_Plugins_needing_Adoption/Emergency)
 
-The `self destruction` feature was implemented using a simple  `ulink` function call which should normally cause it to destroy itself on a successful password reset.
+The `self destruction` feature is implemented using a simple  `unlink()` function call which should normally cause the script to destroy itself upon a successful password reset.
 
 
 
